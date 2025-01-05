@@ -10,7 +10,7 @@ def handle_image(image_bytes, user_message):
 
     chat_handler = Llava15ChatHandler(clip_model_path="models/llava/mmproj-model-f16.gguf")
     llm = Llama(
-    model_path="models/llava/llava_ggml-model-q5_k.gguf",
+    model_path="models/llava/ggml-model-q5_k.gguf",
     chat_handler=chat_handler,
     logits_all=True,
     n_ctx=1024 # n_ctx should be increased to accomodate the image embedding
