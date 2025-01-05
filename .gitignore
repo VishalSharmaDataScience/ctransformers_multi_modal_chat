@@ -1,0 +1,4 @@
+chat_sessions/
+chat_multimodal_venv/
+.cache/
+models/

@@ -1,0 +1,14 @@
+model_path:
+  large: "models/capybarahermes-2.5-mistral-7b.Q4_K_M.gguf"
+
+model_type: "mistral"
+
+embeddings_path: "mixedbread-ai/mxbai-embed-2d-large-v1"
+
+model_config: 
+  'max_new_tokens': 512
+  'temperature' : 0
+  'context_length': 4096
+  'gpu_layers' : 0
+
+chat_history_path: "chat_sessions/"
